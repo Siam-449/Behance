@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Behance</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <!-- header part start -->
+
+    <header class="bg-white py-[10px] px-6">
+      <div class="flex justify-between gap-6">
+        <div class="flex items-center gap-6">
+          <div>
+            <img src="./images/icons/logo.svg" alt="Logo" />
+          </div>
+          <ul class="flex gap-6 items-center">
+            <li>
+              <a href="#" class="text-[#191919] text-[15px] font-bold">For You</a>
+            </li>
+            <li>
+              <a href="#" class="text-[#191919] text-[15px] font-bold">Discover</a>
+            </li>
+            <li>
+              <a href="#" class="text-[#191919] text-[15px] font-bold">Livestreams</a>
+            </li>
+            <li>
+              <a href="#" class="text-[#191919] text-[15px] font-bold">Hire</a>
+            </li>
+            <li>
+              <a href="#" class="text-[#191919] text-[15px] font-bold">Jobs</a>
+            </li>
+          </ul>
+        </div>
+        <!-- right side -->
+        <div class="flex gap-6 items-center">
+            <div class="flex gap-2 items-center">
+                <button class="common-btn-secondary">Log In</button>
+                <button class="common-btn-primary">Sign up</button>
+            </div>
+            <div class="flex gap-[15px] items-center border-l border-l-border-E8 pl-6">
+                <a href="#" class="flex items-center gap-2 text-heading font-bold text-base border border-[#E8E8E8] bg-white rounded-full py-[6px] px-5">
+                    <img src="./images/icons/adobe-cloud.svg" alt="">
+                    <span>Free Trial</span>
+                </a>
+                <a href="#">
+                    <img src="./images/icons/adobe.svg" alt="">
+                </a>
+            </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- header part end -->
+
+    <!-- nav part start -->
+    
+    <nav class="px-6 pt-[30px] pb-[25px] border-y border-y-[#ECECEC]">
+     <div class="grid grid-cols-[1fr_auto] border border-border-CC rounded-full overflow-hidden">
+       <div class="bg-[#F9F9F9] py-[10px] px-[17px]">
+         <form action="" class="grid grid-cols-[23px_1fr] items-center gap-3">
+           <button class="cursor-pointer">
+             <img src="./images/icons/search.svg" alt="Search">
+           </button>
+           <input class="bg-transparent leading-normal placeholder:text-[#696969] text-[22px] font-bold focus:outline-0" type="search" placeholder="Search the creative world at work">
+         </form>
+       </div>
+       <!-- right side part -->
+       <div class="py-[10px] px-[17px] border-l border-border-CC">
+           <ul class="flex gap-2 items-center">
+               <li class="active"><a class=" inline-block rounded-full py-[6px] px-3 bg-white text-heading hover:bg-heading hover:text-white transsition-all" href="#">Projects</a></li>
+               <li><a class=" inline-block rounded-full py-[6px] px-3 bg-white text-heading hover:bg-heading hover:text-white transsition-all" href="#">Images</a></li>
+               <li><a class=" inline-block rounded-full py-[6px] px-3 bg-white text-heading hover:bg-heading hover:text-white transsition-all" href="#">Prototypes</a></li>
+               <li><a class=" inline-block rounded-full py-[6px] px-3 bg-white text-heading hover:bg-heading hover:text-white transsition-all" href="#">Streams</a></li>
+               <li><a class=" inline-block rounded-full py-[6px] px-3 bg-white text-heading hover:bg-heading hover:text-white transsition-all" href="#">People</a></li>
+               <li><a class=" inline-block rounded-full py-[6px] px-3 bg-white text-heading hover:bg-heading hover:text-white transsition-all" href="#">Moodboards</a></li>
+           </ul>
+       </div>
+     </div>
+     <div class="grid grid-cols-[1fr_auto] gap-6">
+       <div>
+         <ul class="pt-[26px] flex items-center gap-5">
+           <li>
+             <button class="flex items-center border border-border-E8 rounded-[4px] py-2 px-3 bg-white">
+               <span>
+                 <img src="./images/icons/Creative Fields.svg" alt="Icon">
+               </span>
+               <span class="ml-[9px] mr-[7px]">Creative Fields</span>
+               <span>
+                 <img src="./images/icons/arrow-down.svg" alt="Icon">
+               </span>
+             </button>
+           </li>
+           <li>
+             <button class="flex items-center border border-border-E8 rounded-[4px] py-2 px-3 bg-white">
+               <span>
+                 <img src="./images/icons/Tools.svg" alt="Icon">
+               </span>
+               <span class="ml-[9px] mr-[7px]">Tools</span>
+               <span>
+                 <img src="./images/icons/arrow-down.svg" alt="Icon">
+               </span>
+             </button>
+           </li>
+           <li>
+             <button class="flex items-center border border-border-E8 rounded-[4px] py-2 px-3 bg-white">
+               <span>
+                 <img src="./images/icons/Color.svg" alt="Icon">
+               </span>
+               <span class="ml-[9px] mr-[7px]">Color</span>
+               <span>
+                 <img src="./images/icons/arrow-down.svg" alt="Icon">
+               </span>
+             </button>
+           </li>
+           <li>
+             <button class="flex items-center border border-border-E8 rounded-[4px] py-2 px-3 bg-white">
+               <span>
+                 <img src="./images/icons/Location.svg" alt="Icon">
+               </span>
+               <span class="ml-[9px] mr-[7px]">Location</span>
+               <span>
+                 <img src="./images/icons/arrow-down.svg" alt="Icon">
+               </span>
+             </button>
+           </li>
+           <li>
+             <button class="flex items-center border border-border-E8 rounded-[4px] py-2 px-3 bg-white">
+               <span>
+                 <img src="./images/icons/Schools.svg" alt="Icon">
+               </span>
+               <span class="ml-[9px] mr-[7px]">Schools</span>
+               <span>
+                 <img src="./images/icons/arrow-down.svg" alt="Icon">
+               </span>
+             </button>
+           </li>
+           <li>
+             <button class="flex items-center border border-border-E8 rounded-[4px] py-2 px-3 bg-white">
+               <span>
+                 <img src="./images/icons/Assets.svg" alt="Icon">
+               </span>
+               <span class="ml-[9px] mr-[7px]">Assets</span>
+               <span>
+                 <img src="./images/icons/arrow-down.svg" alt="Icon">
+               </span>
+             </button>
+           </li>
+           <li>
+             <button class="flex items-center border border-border-E8 rounded-[4px] py-2 px-3 bg-white">
+               <span>
+                 <img src="./images/icons/Subscriptions.svg" alt="Icon">
+               </span>
+               <span class="ml-[9px] mr-[7px]">Subscriptions</span>
+               <span>
+                 <img src="./images/icons/arrow-down.svg" alt="Icon">
+               </span>
+             </button>
+           </li>
+         </ul>
+       </div>
+       <div class="flex items-center pt-[26px]">
+         <ul>
+           <li>
+             <span class="text-[#696969] leading-normal text-base pb-[4px]">Sort</span>
+             <button class="flex items-center gap-2 text-[#191919] leading-normal text-base font-bold">Recommended
+               <span><img src="./images/icons/arrow-down.svg" alt="Icon"></span>
+             </button>
+           </li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+    
+    <!-- nav part end -->
+
+    <!-- Banner sec start -->
+    
+    <section class="px-6 pt-5 pb-8">
+     <div class="flex justify-between">
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/2d Arcade style experiments.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">2d Arcade style experiments</h5>
+             <p>ARCADE STUDIO</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>95</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>616</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/Fashion Illustration Vol.22.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">Fashion Illustration Vol.22</h5>
+             <p>SEUNGWON HONG</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>187</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>2k</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/A search for mother.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">A search for mother</h5>
+             <p>Bade Fuwa</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>56</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>547</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/Cow Cow Cow!.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">Cow Cow Cow!</h5>
+             <p>Multiple Owners</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>784</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>3k</h6>
+           </div>
+         </div>
+       </div>
+     </div>
+    </section>
+     
+    <!-- Banner sec end -->
+
+    <!-- Creative Cloud sec start -->
+    
+    <section class="bg-[#F2F2F2] pb-[32px]">
+     <div class="px-6 py-8 flex gap-[95px]">
+       <div class="w-[280px]">
+         <h3 class="text-[19px] font-bold">Create with Creative Cloud</h3>
+         <p>Whatever you want to create, Adobe Creative Cloud has what you need to make it amazing.</p>
+         <button class="common-btn-primary mt-[50px]">See all plans</button>
+       </div>
+       <div class="flex gap-6">
+         <div class="w-[246px]">
+           <img src="./images/creative-cloud-product-image.jpg" alt="">
+           <div class="flex gap-3 mt-3">
+             <div>
+               <img src="./images/icons/cloud.svg" alt="Icon">
+             </div>
+             <div class="w-[184px]">
+               <h5 class="text-[13px] font-bold">Creative Cloud All Apps</h5>
+               <p class="text-xs">Easily create stunning social graphics, short videos, and web pages that make you stand out.</p>
+             </div>
+           </div>
+         </div>
+         <div class="w-[246px]">
+           <img src="./images/3d Arcade style experiments.jpg" alt="">
+           <div class="flex gap-3 mt-3">
+             <div>
+               <img src="./images/icons/photoshop.svg" alt="Icon">
+             </div>
+             <div class="w-[184px]">
+               <h5 class="text-[13px] font-bold">Photoshop - Image editing & design</h5>
+               <p class="text-xs">Create beautiful images, graphics, paintings, and 3D artwork on your desktop or iPad.</p>
+             </div>
+           </div>
+         </div>
+         <div class="w-[246px]">
+           <img src="./images/illustrator-product-image.png.jpg" alt="">
+           <div class="flex gap-3 mt-3">
+             <div>
+               <img src="./images/icons/Illustrator.svg" alt="Icon">
+             </div>
+             <div class="w-[184px]">
+               <h5 class="text-[13px] font-bold">Illustrator - Logos, icons & illustration</h5>
+               <p class="text-xs">Create beautiful designs, icons, and more — then use them anyplace at any size.</p>
+             </div>
+           </div>
+         </div>
+         <div class="w-[246px]">
+           <img src="./images/premiere-product-image.png.jpg" alt="">
+           <div class="flex gap-3 mt-3">
+             <div>
+               <img src="./images/icons/Premiere-Pro.svg" alt="Icon">
+             </div>
+             <div class="w-[184px]">
+               <h5 class="text-[13px] font-bold">Premiere Pro - Video editing</h5>
+               <p class="text-xs">Create everything from social clips to feature films with the leading video editor.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+    </section>
+
+    <!-- Creative Cloud sec end -->
+
+    <!-- Banner sec part 2 start -->
+    
+    <section class="px-6 pb-[25px]">
+     <div class="flex flex-wrap justify-between mt-[53px] gap-y-5">
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/Onça.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">Onça</h5>
+             <p>Alejandro Gavancho</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>95</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>456</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/VARNE.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">VARNE</h5>
+             <p>Mahmod Mowafy</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>95</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>231</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/Sunday-Best.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">Sunday Best & Someday Studio for BEETL</h5>
+             <button class="flex items-center gap-2">Multiple Owners
+               <span><img src="./images/icons/arrow-down.svg" alt="Icon"></span>
+             </button>
+           </div>
+           <div class="flex items-center gap-1 mt-[-15px]">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>444</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>1k</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/cool-fish.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">cool fish</h5>
+             <p>Johann Banta</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>245</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>786</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/NANTES-MURAL.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">NANTES MURAL</h5>
+             <p>OCU .</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>64</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>529</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/VOGUE ARABIA 2023.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">VOGUE ARABIA 2023</h5>
+             <p>Agnieszka Hoscilo</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>95</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>616</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/NEVER SETTLE.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">NEVER SETTLE – FREELETICS AD 2021</h5>
+             <button class="flex items-center gap-2">Multiple Owners
+               <span><img src="./images/icons/arrow-down.svg" alt="Icon"></span>
+             </button>
+           </div>
+           <div class="flex items-center gap-1 mt-[-15px]">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>617</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>5.5k</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/Arab-Character-Design.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">Arab Character Design</h5>
+             <p>serag basel™</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>336</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>1.8k</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/Bally-Sports.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">Bally Sports | MLB 2022</h5>
+             <p>|drive| studio</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>317</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>5.2k</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/A-digital-heav.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">A digital heaven for perfume enthusiasts</h5>
+             <p>Vasava Studio</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>202</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>1.9k</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/Nestor-Salinas.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">Nestor Salinas</h5>
+             <button class="flex items-center gap-2">Multiple Owners
+               <span><img src="./images/icons/arrow-down.svg" alt="Icon"></span>
+             </button>
+             
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>2.4k</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>29.6k</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/Increment Magazine.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">Increment Magazine</h5>
+             <p>Myriam Wares</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>341</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>3.8k</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/Bagel - Metascale.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">Bagel - Metascale</h5>
+             <button class="flex items-center gap-2">Multiple Owners
+               <span><img src="./images/icons/arrow-down.svg" alt="Icon"></span>
+             </button>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>95</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>616</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/Domo - Brand Identity.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">Domo - Brand Identity</h5>
+             <button class="flex items-center gap-2">Multiple Owners
+               <span><img src="./images/icons/arrow-down.svg" alt="Icon"></span>
+             </button>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>82</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>1.9k</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/TV Show Duos.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">TV Show Duos</h5>
+             <p>Jovana Randjelovic</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>1k</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>13k</h6>
+           </div>
+         </div>
+       </div>
+       <div class="w-[333px]">
+         <img class="rounded-[4px]" src="./images/ABCD Consulting.jpg" alt="Image">
+         <div class="flex justify-between">
+           <div>
+             <h5 class="font-bold">ABCD Consulting</h5>
+             <p>Lissa Kravts</p>
+           </div>
+           <div class="flex items-center gap-2">
+             <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 6H3V14H0V6ZM6.707 13.707C6.9 13.897 7.132 13.997 7.384 14H11.5C11.756 14 12.012 13.902 12.207 13.707L14.707 11.207C14.897 11.017 14.995 10.75 15 10.5V7C15 6.447 14.555 6 14 6H9L10.5 3.5C10.5 3.5 11 2.708 11 2V1C11 0.447 10.553 0 10 0L9 2L5 6V12L6.707 13.707Z" fill="#959595"/>
+               </svg>
+             <h6>32</h6>
+             <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M8.5 0.96875C3.5 0.96875 0.5 5.96875 0.5 5.96875C0.5 5.96875 3.5 10.9688 8.5 10.9688C13.5 10.9688 16.5 5.96875 16.5 5.96875C16.5 5.96875 13.5 0.96875 8.5 0.96875ZM8.5 7.96875C7.395 7.96875 6.5 7.07275 6.5 5.96875C6.5 4.86275 7.395 3.96875 8.5 3.96875C9.604 3.96875 10.5 4.86275 10.5 5.96875C10.5 7.07275 9.604 7.96875 8.5 7.96875Z" fill="#959595"/>
+               </svg>
+             <h6>452</h6>
+           </div>
+         </div>
+       </div>
+     </div>
+    </section>
+    
+    <!-- Banner sec part 2 end -->
+    
+    <!-- footer sec start -->
+    
+    <footer class="px-6 border-t border-t-[#ECECEC]">
+     <div class="flex justify-between gap-6 items-center">
+       <div class="flex gap-[27px] py-[12px] items-center">
+         <div class="flex items-center gap-[62px] border-r border-r-[#AFAFAF] text-[15px]">
+           <button class="flex items-center gap-2 font-bold text-paragraph mr-[23px]">More Behance
+             <span><img src="./images/icons/arrow-down.svg" alt="Icon"></span>
+           </button>
+         </div>
+         <div class="flex items-center border-r border-r-[#AFAFAF] text-[15px]">
+           <button class="flex items-center gap-2 font-bold text-paragraph mr-[23px]">English
+             <span><img src="./images/icons/arrow-down.svg" alt="Icon"></span>
+           </button>
+         </div>
+         <div class="pl-5 items-center">
+           <ul class="flex gap-[21px] items-center font-bold text-paragraph text-[12px]">
+             <li><p>TOU</p></li>
+             <li><p>Privacy</p></li>
+             <li><p>Community</p></li>
+             <li><p>Help</p></li>
+             <li><p>Cookie preferences</p></li>
+             <li><p>Do not sell or share my personal information</p></li>
+           </ul>
+         </div>
+       </div>
+       <div>
+         <a href="#">
+           <img src="./images/icons/adobe.svg" alt="Icon">
+         </a>
+       </div>
+     </div>
+    </footer>
+     
+    <!-- footer sec end -->
+  </body>
+</html>

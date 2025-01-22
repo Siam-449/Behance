@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  body {
+    @apply bg-white;
+  }
+}
+
+
+@layer components {
+  .common-btn-primary {
+    @apply rounded-full bg-primary py-[10px] px-[21px] text-white text-base font-bold border border-primary;
+  }
+  .common-btn-secondary {
+    @apply rounded-full bg-secondary_btn py-[10px] px-[21px] text-primary text-base font-bold border border-[#DEE8FF];
+  }
+}
+
+nav .active a {
+  background: #191919;
+  color: #ffffff;
+}
